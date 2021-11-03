@@ -1,0 +1,69 @@
+.header{
+    height: 100vh;
+    background: linear-gradient(to right, #111, transparent);
+    background: linear-gradient(to top, #111 20%, transparent 80%);
+}
+.header-vertical{
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.header-horizontal{
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to right, #111 20%, transparent 90%);
+}
+.header-conteudo{
+    height: calc(100% - 150px - 30px);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.header-conteudo-title h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.header-conteudo-tv{
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header-conteudo-tv-pts{
+    color: #46a546;
+}
+.header-conteudo-tv-temp{
+    margin: 0 15px;
+}
+.header-conteudo-descri p{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #b4b3b3;
+}
+.header-conteudo-buttons{
+    display: flex;
+    margin-top: 10px;
+}
+.header-conteudo-button-assis,
+.header-conteudo-button-inf{
+    padding: 7px 15px;
+    margin: 0 1%;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 3px;
+    transition: all linear .2s;
+}
+.header-conteudo-button-assis{
+    background: #fff;
+    color: black;
+}
+.header-conteudo-button-inf{
+    background: rgba(202, 202, 202, 0.288);
+    color: white;
+}
+.header-conteudo-button-assis:hover,
+.header-conteudo-button-inf:hover{
+    background: #d0cece;
+}
